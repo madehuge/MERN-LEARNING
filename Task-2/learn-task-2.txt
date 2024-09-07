@@ -1,0 +1,10 @@
+Learning HTML From Scratch
+-- https://www.youtube.com/watch?v=AXoanErUNE8
+-- https://www.youtube.com/watch?v=0e8L7yLYXJ4
+-- https://www.youtube.com/watch?v=ZT9zKm0_vDU
+-- Types of CSS - Cascading Style Sheets ( Inline, Internal, External )
+-- What is Favicon & How to sue in HTML
+-- Take Idea/Reference From Another Live Websites & try to put in Chrome Dev tool
+-- Idea of Selectors & Colors
+-- favicon.io = To generate our own custom favicon via images or text
+-- ID > CLASS > ELEMENT ( Priority Game of CSS )
