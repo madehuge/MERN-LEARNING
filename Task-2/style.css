@@ -1,0 +1,63 @@
+/* Basic styling for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e69703;
+            color: #333;
+        }
+        .head {
+            color:darkblue;
+        }
+
+        #bglime {
+            background-color: rgb(22, 1, 1);
+            color: red;
+        }
+        #bglime span {
+            color: rgb(255, 255, 255);
+        }
+
+        p {
+            color: #fff;
+        }
+        #para {
+            color: green;
+        }
+        #para span {
+            color: rgb(0, 0, 0);
+        }
+
+        ul {
+            color: #fff;
+        }
+
+        ul>li >a {
+            background: rgb(125, 133, 179);
+            color: green;
+        }
+
+        ul > li:first-child > a {
+            background:yellow;
+            color: green;
+        }
+
+        ol > li:nth-child(2) {
+            color: blue;
+        }
+
+        ol>li:nth-child(3) {
+            color: red;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: antiquewhite;
+        }
