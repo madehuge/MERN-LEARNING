@@ -1,0 +1,5 @@
+VS Code for Windows
+Extensions to speed up in VS code
+-- HTML CSS & JavaScript Snippet
+-- Prettier Code Format
+-- Live Server (Ritwick Dey)
