@@ -1,0 +1,109 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    width: 100%;
+    padding: 1vh 2vw;
+    background-color: #333;
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 1vw;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+.user-name {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    color: white;
+    font-size: 1.2vw;
+    padding-right: 2vw;
+}
+
+/* Hero Section Styles */
+.hero {
+    width: 100vw;
+    height: 90vh;
+    padding: 2vh 5vw;
+}
+
+.hero-left,
+.hero-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hero-left {
+    width: 45vw;
+    margin-right: 2vw;
+}
+
+.hero-left h1 {
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+
+.hero-left p {
+    font-size: 1.5vw;
+    margin-bottom: 4vh;
+}
+
+.hero-left .hero-btn {
+    padding: 1vh 3vw;
+    font-size: 1.5vw;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-left .hero-btn:hover {
+    background-color: #ff5f5f;
+}
+
+.hero-right {
+    width: 45vw;
+}
+
+.hero-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
