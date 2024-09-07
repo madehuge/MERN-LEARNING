@@ -1,58 +1,51 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+/* Apply box-sizing to all elements for better control over element sizes */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
+/* Ensures that the body and html take up full height of the viewport */
 html,
 body {
     height: 100%;
-    /*Use of Fonts & Family*/
-    display: block;
+    font-family: Arial, sans-serif;
+    border: 2px solid #000;
 }
 
-body {
-    border: 5px solid #000;
-    padding: 2vh;
-    box-sizing: border-box;
-}
-
-/* Create equal spacing from the sides and center vertically */
-.top_box {
+/* Container for the image and button with proper spacing */
+.box_image {
     width: 50vw;
     /* 50% of the viewport width */
     margin: 10vh auto;
-    border: 1px solid #000;
+    /* 10% top and bottom, centered horizontally */
     text-align: center;
-    /* Centering the contents inside */
 }
 
-/* Image styles */
+/* Image Styling */
 .box_image img {
     width: 100%;
+    /* Takes the full width of its container (50vw) */
     height: auto;
     display: block;
+    /* Maintains aspect ratio */
 }
 
-/* Button styles */
+/* Button Styling with Gradient Background */
 .box_image button {
-    display: block;
-    font-family: "Playwrite CU", cursive;
-    width: 100%;
-    padding: 10px;
-    font-size: 1.2rem;
+    width: 50vw;
+    height: 7vh;
+    font-size: 1rem;
+    background: linear-gradient(45deg, #e8d76b, #2ecc71);
     color: white;
-    background: linear-gradient(45deg, #ffff00, #28d800db);
-    /* This Linear Gradient Property will work here to outcome*/
     border: none;
     cursor: pointer;
-    transition: transform 0.2s ease-in-out;
+    font-family: "Playwrite CU", cursive;
 }
 
-/* Hover effect for button */
+/* Button hover effect */
 .box_image button:hover {
-    background: linear-gradient(45deg, #ffff00, #28d800db); 
-    opacity: 0.8;
+    background: linear-gradient(45deg, #2980b9, #27ae60);
 }
