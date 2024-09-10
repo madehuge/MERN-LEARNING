@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Setup */
+body,
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+   
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/* Left Section */
+.left-section {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.left-section img {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+/* Right Section - Form */
+.right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    min-height: 80vh;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    max-width: 60vh;
+    height: 80vh;
+    background: #f9e2e2;
+}
+
+.login-form h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-form p {
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #6b6b6b;
+    text-align: center;
+}
+
+/* Input Fields */
+
+.login-form label {
+    color: #d06800;
+    font-size: 14px;
+}
+
+
+.login-form input {
+    width: 100%;
+    padding: 15px 10px;
+    margin: 5px 0px 10px;
+    border-radius: 5px;
+    border: 1px solid #826565;
+    font-size: 13px;
+}
+
+
+.forgot-password a {
+    float: right;
+    color: #d06800;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    float: right;
+    color: #5e4e3d;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* Login Button */
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f16334;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.login-form button:hover {
+    background-color: #000000;
+}
+
+/* Form Links */
+.form-links {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 1.5rem;
+}
+
+.form-links a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.form-links a:hover {
+    text-decoration: underline;
+}
+
+.form-links span {
+    margin: 0 5px;
+}
+
