@@ -1,0 +1,4 @@
+Learning Learning Media Query & Variables
+-- https://www.youtube.com/watch?v=XG02yn-OAWM
+-- https://www.youtube.com/watch?v=cfDV6iGXPMY
+-- Learning the concept of display FLex, Flex Properties
