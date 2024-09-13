@@ -4,15 +4,13 @@ Tracking Learning Activities
 
 <a id="scroll-top"></a>
 
-ss
 [![Contributors][contributors-shield]][contributors-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url] -->
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -25,11 +23,7 @@ ss
 
   <p align="center">
     You must check the following link to explore more!
-    <br />
-   
-    <br />
-    <a href="https://fullstack-skills.netlify.app/" target="_blank">View Projects</a>
-   sss
+    <a href="https://fullstack-skills.netlify.app/">View Projects</a>
   </p>
 </div>
 
