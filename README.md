@@ -112,6 +112,7 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
+  <!--
 
 ### Installation
 
@@ -136,17 +137,17 @@ _Below is an example of how you can instruct your audience on installing and set
    git remote -v # confirm the changes
    ```
 
-<p align="right">(<a href="#scroll-top">back to top</a>)</p>
+<p align="right">(<a href="#scroll-top">back to top</a>)</p> -->
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+<!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#scroll-top">back to top</a>)</p>
+<p align="right">(<a href="#scroll-top">back to top</a>)</p> -->
 
 <!-- ROADMAP -->
 
@@ -156,11 +157,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Add back to top links
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
+<!-- - [ ] Multi-language Support
   - [ ] Chinese
-  - [ ] Spanish
+  - [ ] Spanish -->
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/madehuge/MERN-LEARNING/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#scroll-top">back to top</a>)</p>
 
