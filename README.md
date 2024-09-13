@@ -16,7 +16,7 @@ Tracking Learning Activities
 <br />
 <div align="center">
   <a href="https://github.com/madehuge">
-    <img src="images/Logo.png" alt="Logo" width="80" height="80">
+    <img src="images/Logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Step By Step Guide To Learn Full Software Development</h3>
@@ -57,19 +57,27 @@ Tracking Learning Activities
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+n today’s fast-paced tech world, continuous learning is key to staying relevant. This project is designed to help both freshers and experts dive deep into full-stack development in their spare time, whether you're balancing it with a job or school. It covers the entire spectrum of web development, from front-end technologies like HTML, CSS, and JavaScript, to building dynamic and responsive user interfaces with React. You’ll also gain hands-on experience with server-side technologies such as Node.js, databases like MySQL, and deploying applications to Cloud Servers.
 
 Here's why:
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
+- <strong>Comprehensive Learning Path</strong>: You'll gain hands-on experience with essential technologies like HTML, CSS, JavaScript, React, Node.js, MySQL, WordPress, and Cloud Servers. This well-rounded approach ensures you understand both front-end and back-end development.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+- <strong>Real-World Applications</strong>: Each skill you learn is directly applicable to building real-world projects. By the end of the project, you’ll have a portfolio-ready, full-stack application that demonstrates your ability to create, deploy, and manage websites and web apps.
 
-Use the `BLANK_README.md` to get started.
+- <strong>Flexible Learning</strong>: Designed for those balancing jobs or schooling, this project can be completed at your own pace, in your spare time, allowing you to upgrade your skills without interrupting your current commitments.
+
+- <strong>Industry-Relevant Skills</strong>: Full-stack developers are in high demand. Learning this set of technologies will give you a competitive edge, opening up career opportunities and improving your problem-solving and coding efficiency.
+
+- <strong>Beginner-Friendly & Expert-Guided</strong>: Whether you're new to development or an expert refining your skills, this project offers resources and guidance at every level, allowing you to confidently move forward in your full-stack journey.
+
+Not just that, you’ll explore the powerful CMS platform WordPress, which is widely used for web development, giving you a well-rounded skill set to tackle both custom builds and more traditional CMS-based solutions.
+
+Whether you're a beginner aiming to break into the tech industry or an experienced developer looking to refine your skills, this project offers the flexibility to learn at your own pace. The goal is simple: empower you with practical, real-world skills that help you understand the entire web development process—from creating beautiful interfaces to deploying scalable applications. Join us, and take the next step in becoming a full-stack developer!
+
+Start with `HTML->CSS->Javascript` and customize it for your own projects.
 
 <p align="right">(<a href="#scroll-top">back to top</a>)</p>
 
@@ -80,12 +88,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 - [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
 - [![Vue][Vue.js]][Vue-url]
-  <!-- - [![Angular][Angular.io]][Angular-url] -->
-  <!-- - [![Svelte][Svelte.dev]][Svelte-url]
-- [![Laravel][Laravel.com]][Laravel-url] -->
+- [![Laravel][Laravel.com]][Laravel-url]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 - [![JQuery][JQuery.com]][JQuery-url]
 - [![WordPress][WordPress.org]][WordPress-url]
+  <!-- - [![Angular][Angular.io]][Angular-url] -->
+  <!-- - [![Svelte][Svelte.dev]][Svelte-url]  -->
 
 <p align="right">(<a href="#scroll-top">back to top</a>)</p>
 
@@ -217,8 +225,8 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/madehuge/MERN-LEARNING.svg?style=for-the-badge
+[contributors-url]: https://github.com/madehuge/MERN-LEARNING/pulse
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
