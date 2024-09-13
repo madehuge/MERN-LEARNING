@@ -209,7 +209,6 @@ button:focus + .menu {
 
 .hero-right {
   width: 55%;
-  text-align: right;
 }
 
 .hero-right img {
@@ -271,5 +270,45 @@ button:focus + .menu {
   .hero-btn {
     font-size: var(--var-global-banner-btn-fonts);
     padding: 10px 10px;
+  }
+}
+
+/* Style for the orbiting image */
+.orbit-image {
+  animation: orbitRotation 5s infinite linear,
+    squeezeEffect 2s infinite ease-in-out;
+}
+
+@keyframes orbitRotation {
+  0% {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg) translateX(150px) rotate(-90deg);
+  }
+  50% {
+    transform: rotate(180deg) translateX(150px) rotate(-180deg);
+  }
+  75% {
+    transform: rotate(270deg) translateX(150px) rotate(-270deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@keyframes squeezeEffect {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1.2, 0.8);
+  }
+  50% {
+    transform: scale(0.8, 1.2);
+  }
+  75% {
+    transform: scale(1.1, 0.9);
   }
 }
