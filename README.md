@@ -81,7 +81,7 @@ Start with `HTML->CSS->Javascript` and customize it for your own projects.
 
 <p align="right">(<a href="#scroll-top">back to top</a>)</p>
 
-### Techstack Used To Explore the Project
+### Technologies Used to Build and Explore the Project
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -199,9 +199,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Manish Kumar Jangir - [@manish-jangir-a8b93691](https://www.linkedin.com/in/manish-jangir-a8b93691/) - madehuge@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/madehuge/](https://github.com/madehuge/)
 
 <p align="right">(<a href="#scroll-top">back to top</a>)</p>
 
