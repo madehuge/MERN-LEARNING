@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="navbar">
+        <!-- Logo on the left -->
+        <div class="logo">
+          <a href="#">SneakerStore</a>
+        </div>
+        <!-- Menus in the center -->
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li class="carrot"><a href="product.html">Brands</a></li>
+            <li class="carrot"><a href="product.html">Brands</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Search, cart icon, and profile on the right -->
+        <div class="nav-icons">
+          <input type="text" name="search" placeholder="Search.." />
+          <div class="nav_icon">
+            <a href="cart.html"
+              ><img src="images/cart.png" alt="Cart" class="icon" /><span
+                >0</span
+              ></a
+            >
+          </div>
+          <div class="nav_icon_user">
+            <a href="#"
+              ><img src="images/user.png" alt="Profile" class="profile-icon"
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="product-page">
+      <!-- Main Display Section -->
+      <div class="main-display">
+        <!-- Left: Main Image -->
+        <div class="product-image">
+          <img src="images/nike.png" alt="Product Image" />
+        </div>
+
+        <!-- Right: Product Details -->
+        <div class="product-details">
+          <h1 class="product-name">Shoe Name</h1>
+          <p class="product-description">
+            This is a description of the shoe highlighting its features,
+            material, and comfort level.
+          </p>
+          <p class="product-price">$99.99</p>
+          <p class="sale-details">Sale: 20% off!</p>
+
+          <!-- Quantity and Add to Cart -->
+          <div class="quantity-cart">
+            <label for="quantity">Quantity:</label>
+            <input
+              type="number"
+              id="quantity"
+              name="quantity"
+              min="1"
+              max="10"
+              value="1"
+            />
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Gallery Section -->
+      <div class="gallery">
+        <div class="gallery-images">
+          <img src="images/2.webp" alt="Shoe Image 1" />
+          <img src="images/3.webp" alt="Shoe Image 2" />
+          <img src="images/4.webp" alt="Shoe Image 3" />
+          <img src="images/5.webp" alt="Shoe Image 4" />
+          <img src="images/6.webp" alt="Shoe Image 6" />
+          <img src="images/7.webp" alt="Shoe Image 7" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Service Overview Section -->
+    <section class="service-overview container">
+      <div class="service-box">
+        <h3>
+          <img src="images/review.png" alt="Review Logo" /><span>2K+</span>
+          Reviews
+        </h3>
+      </div>
+      <div class="service-box">
+        <h3>
+          <img src="images/customers.png" alt="Customers Logo" /><span
+            >30K+</span
+          >
+          Customers
+        </h3>
+      </div>
+      <div class="service-box">
+        <h3>
+          <img src="images/quality.png" alt="High Quality Logo" /><span
+            >High</span
+          >
+          Quality
+        </h3>
+      </div>
+      <div class="service-box">
+        <h3>
+          <img src="images/rating.png" alt="Rating Logo" /><span>4.5/5</span>
+          Rating
+        </h3>
+      </div>
+    </section>
+  </body>
+</html>
